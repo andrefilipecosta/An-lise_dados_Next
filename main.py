@@ -4,6 +4,7 @@ from gender_service import Genero
 from cep_service import Cep
 import json
 
+
 dados = LeitorCSV().ler_arquivo
 servico_genero = Genero()
 cep_service = Cep()
